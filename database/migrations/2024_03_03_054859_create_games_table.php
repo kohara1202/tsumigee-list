@@ -19,7 +19,7 @@ return new class extends Migration
             $table->foreignId('hard_id');
             $table->enum('clear', config('const.clears'));
             $table->enum('grade', config('const.grades'));
-            $table->string('note');
+            $table->string('note')->nullable();
             $table->timestamps();
         });
     }
