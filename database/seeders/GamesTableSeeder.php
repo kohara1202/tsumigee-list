@@ -22,14 +22,14 @@ class GamesTableSeeder extends Seeder
              'furigana' => 'スーパーマリオオデッセイ',
              'maker_id' => '1',
              'hard_id'  => '1',
-             'clear'    => 'clear',
+             'clear'    => 'クリア',
              'grade'    => 'S+',
              'note'     => 'スーパーマリオ オデッセイセット'],
             ['title'    => 'スーパーボンバーマン R 2',
              'furigana' => 'スーパーボンバーマンアール2',
              'maker_id' => '2',
              'hard_id'  => '2',
-             'clear'    => 'backlog',
+             'clear'    => '積み',
              'grade'    => '-']
         ];
 
