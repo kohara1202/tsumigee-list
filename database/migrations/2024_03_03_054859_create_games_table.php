@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('furigana');
-            $table->foreignId('maker_id')->constrained();
-            $table->foreignId('hard_id')->constrained();
+            $table->foreignId('maker_id');
+            $table->foreignId('hard_id');
             $table->enum('clear', config('const.clears'));
             $table->enum('grade', config('const.grades'));
             $table->string('note');
