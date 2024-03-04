@@ -16,6 +16,24 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('game.index')" :active="request()->routeIs('game.index')">
+                        Game
+                    </x-nav-link>
+                </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('maker.index')" :active="request()->routeIs('maker.index')">
+                        Maker
+                    </x-nav-link>
+                </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('hard.index')" :active="request()->routeIs('hard.index')">
+                        Hard
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->
