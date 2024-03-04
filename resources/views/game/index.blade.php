@@ -60,6 +60,7 @@
                 </table>
                 <div class="pt-3">
                     <button type="submit" class="btn btn-primary">決定</button>
+                    <a href="/game" class="btn btn-primary">リセット</a>
                 </div>
             </form> 
         </div>
