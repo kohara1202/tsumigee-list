@@ -1,2 +1,13 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+// その場しのぎ
+.bg-white {
+    background-color: #1f2937 !important;
+}
