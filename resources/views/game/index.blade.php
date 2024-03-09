@@ -20,7 +20,7 @@
                             <select name="filter_maker" required class="bg-gray-50 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 <option value=0></option>
                                 @foreach($makers as $maker)
-                                    <option value="{{ $maker->name }}">
+                                    <option value="{{ $maker->id }}">
                                         {{ $maker->name }}
                                     </option>
                                 @endforeach
@@ -72,7 +72,7 @@
             (総数{{ $gameStats['gameNum'] }}、積み{{ $gameStats['backlogNun'] }}、クリア{{ $gameStats['clearNun'] }})           
         </h3>
     </div>  
-    <div class="text-xl mx-3">
+    <div class="text-lg mx-3">
         <table class="table table-dark table-striped table-bordered table-hover">
             <thead>
                 <tr>
