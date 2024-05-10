@@ -1,5 +1,10 @@
 # Laravel project
 
+```bash
+php artisan serve
+npm run dev
+```
+
 ## project立ち上げ
 
 ```plaintext
